@@ -1,5 +1,8 @@
 # IDEA
 .idea
+npm-debug.log
+build
+
 
 # Logs
 logs
