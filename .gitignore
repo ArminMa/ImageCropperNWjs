@@ -2,12 +2,12 @@
 .idea
 npm-debug.log
 build
-
+build\*
 
 # Logs
 logs
 *.log
-npm-debug.log*
+
 
 # Runtime data
 pids

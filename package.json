@@ -1,0 +1,20 @@
+{
+  "main": "index.html",
+  "name": "macavTest1NodeJs",
+  "version": "0.23.2",
+  "node-main": "node-main.js",
+  "node-remote" : "*://index.html",
+  "devDependencies": {
+
+  },
+  "window":
+  {
+    "toolbar": false,
+    "frame"  : false,
+    "icon" : " icon",
+    "width": 1500,
+    "height": 900,
+    "min_width": 900,
+    "min_height": 400
+  }
+}

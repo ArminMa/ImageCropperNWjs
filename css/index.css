@@ -1,0 +1,170 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(31, 165, 214);
+}
+
+.container {
+  position: relative;
+  float: left;
+}
+
+.container .container {
+  min-width: 100px;
+  margin-left: -0.0302%;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+}
+
+.wrapper {
+  position: relative;
+  float: left;
+  z-index: 9;
+  width: 70.7408854166%;
+  height: 699px;
+  margin: -700px 0 0 9.4114583333%;
+  overflow: visible;
+}
+
+._button {
+  display: block;
+  position: relative;
+  float: left;
+  border-radius: 3px;
+  background-color: rgb(222, 222, 222);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+}
+
+._container {
+  z-index: 8;
+  width: 17.2473958333%;
+  height: 700px;
+  margin: -700px 0 0 80.16667%;
+}
+
+._element {
+  border-style: solid;
+}
+
+.container-1 {
+  z-index: 0;
+  width: 97.4166666666%;
+  min-width: 500px;
+  max-width: 1200px;
+  height: 25px;
+  min-height: 25px;
+  max-height: 25px;
+  margin-top: 5px;
+  border-width: 2px;
+  border-color: rgba(140, 152, 213, 0.8);
+  border-radius: 5px;
+  background-color: rgba(28, 78, 175, 0.14);
+}
+
+.container-2 {
+  z-index: 3;
+  width: 9.4153645833%;
+  min-width: 100px;
+  max-width: 115px;
+  height: 700px;
+  min-height: 400px;
+  max-height: 700px;
+  border-width: 3px;
+  border-color: rgba(111, 130, 171, 0.47);
+  border-radius: 5px;
+  background-color: rgba(177, 175, 199, 0.81);
+}
+
+.container-1:active,
+.container-2:active {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: rgba(94, 127, 201, 0);
+}
+
+.container-4 {
+  z-index: 6;
+  width: 98.0525362318%;
+  height: 700px;
+  border-radius: 2px;
+  background: rgb(255, 255, 255);
+  background: -webkit-linear-gradient(0deg, rgb(255, 255, 255) 12.142857142857142%, rgb(0, 0, 0) 100%) rgba(98, 88, 76, 0.12);
+  background:    -moz-linear-gradient(0deg, rgb(255, 255, 255) 12.142857142857142%, rgb(0, 0, 0) 100%) rgba(98, 88, 76, 0.12);
+  background:      -o-linear-gradient(0deg, rgb(255, 255, 255) 12.142857142857142%, rgb(0, 0, 0) 100%) rgba(98, 88, 76, 0.12);
+  background:     -ms-linear-gradient(0deg, rgb(255, 255, 255) 12.142857142857142%, rgb(0, 0, 0) 100%) rgba(98, 88, 76, 0.12);
+  background:         linear-gradient(450deg, rgb(255, 255, 255) 12.142857142857142%, rgb(0, 0, 0) 100%) rgba(98, 88, 76, 0.12);
+}
+
+.container-5 {
+  clear: both;
+  z-index: 7;
+  width: 99.9849033816%;
+  height: 144px;
+  margin-top: -700px;
+  background-color: rgba(224, 193, 26, 0.6);
+}
+
+.container-1:hover,
+.container-2:hover,
+.container-5:hover {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+._button-1 {
+  clear: both;
+  z-index: 1;
+  width: 3.5%;
+  height: 25px;
+  margin: -25px 0 0 2.08073%;
+  color: rgb(31, 165, 214);
+}
+
+._button-2 {
+  z-index: 2;
+  width: 3.5%;
+  height: 25px;
+  margin: -25px 0 0 6.5%;
+  color: rgb(31, 165, 214);
+}
+
+._button-3 {
+  clear: both;
+  z-index: 4;
+  width: 3.3333333333%;
+  min-width: 40px;
+  max-width: 45px;
+  height: 37px;
+  min-height: 37px;
+  max-height: 37px;
+  margin: -664px 0 0 1.0794299999%;
+  background-image: url('../images/zoom-tool-icon.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 40%;
+  color: rgb(0, 0, 0);
+}
+
+._button-4 {
+  z-index: 5;
+  width: 3.3333333333%;
+  min-width: 40px;
+  max-width: 45px;
+  height: 34px;
+  margin: -589px 0 0 1.0794299999%;
+  border: 1px dotted rgb(0, 0, 0);
+  background-image: url('../images/border-dotted-icon.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 80%;
+  color: rgb(0, 0, 0);
+}
